@@ -1,16 +1,17 @@
 # traceosint
 Trace osint locator
+
 https://trace-osint-7pj4.arcada.app
 
 Website artifact
 Done. Built TRACE.OSINT — a geolocation intelligence console with a green hacker/terminal aesthetic inspired by OSINT finder tools.
 
-Key features
+🔑 Key features
 Three target vectors — search by phone number, username, or email, each with tailored scan sequences (SS7/HLR for phones, Sherlock-style enumeration for usernames, MX/SMTP/HIBP for emails).
 
-Accurate interactive map — real Leaflet map with a dark CARTO basemap, glowing pulsing green markers, an accuracy-radius circle (±meters), and auto-fit bounds across primary + secondary "sighting" pins. Phone searches auto-detect the country code (e.g. +62 → Indonesia) and bias the geofix to that region.
+🗺️ Accurate interactive map — real Leaflet map with a dark CARTO basemap, glowing pulsing green markers, an accuracy-radius circle (±meters), and auto-fit bounds across primary + secondary "sighting" pins. Phone searches auto-detect the country code (e.g. +62 → Indonesia) and bias the geofix to that region.
 
-Live scan terminal — log lines stream in one-by-one with color-coded modules (SS7, CELL, GEO, BREACH…) and a blinking cursor, plus a sweeping radar line over the map during acquisition.
+🔭Live scan terminal — log lines stream in one-by-one with color-coded modules (SS7, CELL, GEO, BREACH…) and a blinking cursor, plus a sweeping radar line over the map during acquisition.
 
 Full intelligence dossier — confidence ring, lat/lng/accuracy/timezone, network signature (IP, ISP, ASN, carrier, connection), device fingerprint (OS/browser/device), social enumeration across 10 platforms with live profile links, and a breach-corpus panel (LinkedIn, Facebook, Collection #1, etc.) with exposed data fields.
 
